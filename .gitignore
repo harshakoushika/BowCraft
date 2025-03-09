@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build directory
+dist/
+build/
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+Thumbs.db
+*.bak
+*.orig
+
+# Coverage reports
+coverage/
+
+# Next.js and Expo-specific
+.next/
+.expo/
+.expo-shared/
+
+# ESLint and Prettier cache
+.eslintcache
+.prettier
+
+# Storybook
+.storybook/
+out/
